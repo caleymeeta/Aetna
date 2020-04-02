@@ -1,37 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="1"
+<testsuites errors="0"
             failures="0"
             tests="1">
 
   <testsuite name="verifyDist"
-    errors="1" failures="0" hostname="" id="" package="verifyDist" skipped="0"
-    tests="1" time="24.89" timestamp="">
+    errors="0" failures="0" hostname="" id="" package="verifyDist" skipped="0"
+    tests="1" time="32.64" timestamp="">
   
-    <testcase name="Verify distance" classname="verifyDist" time="24.89" assertions="1">
+    <testcase name="Verify distance" classname="verifyDist" time="32.64" assertions="1">
 
-    
-      <error message="Guest.click(...).pause(...).setValue(...).pause(...).useXpath(...).click(...).pause(...).moveToElement(...).mouseButtonDown is not a function" type="error">TypeError: Guest.click(...).pause(...).setValue(...).pause(...).useXpath(...).click(...).pause(...).moveToElement(...).mouseButtonDown is not a function
-    at Object.Verify distance (/Users/meetasingh/Desktop/Aetna/tests/verifyDist.js:31:13)
-    at Context.call (/usr/local/lib/node_modules/nightwatch/lib/testsuite/context.js:379:35)
-    at TestCase.run (/usr/local/lib/node_modules/nightwatch/lib/testsuite/testcase.js:49:31)
-    at Runnable.__runFn (/usr/local/lib/node_modules/nightwatch/lib/testsuite/index.js:374:80)
-    at Runnable.run (/usr/local/lib/node_modules/nightwatch/lib/testsuite/runnable.js:123:21)
-    at TestSuite.createRunnable (/usr/local/lib/node_modules/nightwatch/lib/testsuite/index.js:441:33)
-    at TestSuite.handleRunnable (/usr/local/lib/node_modules/nightwatch/lib/testsuite/index.js:446:18)
-    at /usr/local/lib/node_modules/nightwatch/lib/testsuite/index.js:374:21
-    at async DefaultRunner.runTestSuite (/usr/local/lib/node_modules/nightwatch/lib/runner/test-runners/default.js:68:7)
-    at async DefaultRunner.promiseFn (/usr/local/lib/node_modules/nightwatch/lib/runner/test-runners/default.js:95:7)</error>
     
     </testcase>
   
 
-  
-    <system-err>
-      [0;31m  TypeError: Guest.click(...).pause(...).setValue(...).pause(...).useXpath(...).click(...).pause(...).moveToElement(...).mouseButtonDown is not a function
-   - writing an ES6 async test case? - keep in mind that commands return a Promise; 
-   - writing unit tests? - make sure to specify &#34;unit_tests_mode=true&#34; in your config.[0m
-[0;90m       at Object.Verify distance (/Users/meetasingh/Desktop/Aetna/tests/verifyDist.js:31:13)[0m
-    </system-err>
   
 
   

@@ -1,3 +1,4 @@
+var dragAndDrop = require('html-dnd').codeForSelectors;
 let Guest =[]
 var location
 
@@ -27,17 +28,26 @@ after: browser => {
            .useXpath()
            .click("//a[contains(@title,'84095')]")
            .pause(5000)
-           .moveToElement("//span[@role='slider']",  0,  0)
+           .click('@draggable')
+           browser.useXpath()
+
+           browser.execute(dragAndDrop, ["//span[contains(@aria-valuenow,'25')]", "//span[contains(@aria-valuenow,'3')]"])
+           .pause(3000)
+
+    },
+/*
+             
+        /*   .moveToElement("//span[@role='slider']",  0,  0)
            .mouseButtonDown(0)
            .useCss()
            .moveToElement('body',  200,  600) // Move to offset position of 200(x) 600(y)
            .mouseButtonUp(0)
-           .pause(5000)
+           .pause(5000) */
 
          //  .getText('@enter_location',function(resultlocation){
         //     console.log("location is" + resultlocation.value)
         //   })
-
+         
         
     }
-  };
+  
