@@ -15,12 +15,12 @@ module.exports = {
             selector: "//input[@placeholder='Enter location here']",
             locateStrategy: 'xpath'
         }, 
-        draggable:{
+        StartingPointdrag:{
             selector: "//span[contains(@aria-valuenow,'25')]",
             locateStrategy: 'xpath'
 
         },
-        droppable:{
+        EndingLocaitondrag:{
             selector: "//span[contains(@aria-valuenow,'3')]",
             locateStrategy: 'xpath'
 

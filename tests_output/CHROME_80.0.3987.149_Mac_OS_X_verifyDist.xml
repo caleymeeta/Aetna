@@ -1,18 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="0"
+<testsuites errors="1"
             failures="0"
             tests="1">
 
   <testsuite name="verifyDist"
-    errors="0" failures="0" hostname="" id="" package="verifyDist" skipped="0"
-    tests="1" time="32.64" timestamp="">
+    errors="1" failures="0" hostname="" id="" package="verifyDist" skipped="0"
+    tests="1" time="30.31" timestamp="">
   
-    <testcase name="Verify distance" classname="verifyDist" time="32.64" assertions="1">
+    <testcase name="Verify distance" classname="verifyDist" time="30.31" assertions="1">
 
+    
+      <error message="An error occurred while running .getLocation() command on &lt;//span[contains(@aria-valuenow,&#39;0&#39;)]&gt;: undefined; undefined" type="error">NoSuchElementError: An error occurred while running .getLocation() command on &lt;//span[contains(@aria-valuenow,&#39;0&#39;)]&gt;: undefined; undefined
+    at GetLocation.noSuchElementError (/usr/local/lib/node_modules/nightwatch/lib/element/command.js:363:12)
+    at Object.errorHandler (/usr/local/lib/node_modules/nightwatch/lib/api/element-commands/_baseElementCommand.js:42:30)
+    at PeriodicPromise.runAction (/usr/local/lib/node_modules/nightwatch/lib/utils/periodic-promise.js:60:29)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)</error>
     
     </testcase>
   
 
+  
+    <system-err>
+      [0;31m  NoSuchElementError: An error occurred while running .getLocation() command on &lt;//span[contains(@aria-valuenow,&#39;0&#39;)]&gt;: undefined; undefined
+   {&#34;sessionId&#34;:&#34;0bcf9001a812c0ece31e55fa2c8f9aca&#34;,&#34;status&#34;:0,&#34;value&#34;:[]}[0m
+[0;90m       at processTicksAndRejections (internal/process/task_queues.js:97:5)[0m
+    </system-err>
   
 
   
