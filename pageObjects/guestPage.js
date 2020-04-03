@@ -15,16 +15,23 @@ module.exports = {
             selector: "//input[@placeholder='Enter location here']",
             locateStrategy: 'xpath'
         }, 
-        StartingPointdrag:{
+        startingPointdrag:{
             selector: "//span[contains(@aria-valuenow,'25')]",
             locateStrategy: 'xpath'
 
         },
-        EndingLocaitondrag:{
+        endingLocaitondrag:{
             selector: "//span[contains(@aria-valuenow,'3')]",
             locateStrategy: 'xpath'
 
         },
+        dragPointer:{
+            selector: "(//span[@class='rz-bar'])[1]",
+            locateStrategy: 'xpath'
+
+        },
+
+
 
 
 
