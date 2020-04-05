@@ -5,9 +5,63 @@
 
   <testsuite name="verifyDist"
     errors="0" failures="0" hostname="" id="" package="verifyDist" skipped="0"
-    tests="1" time="24.35" timestamp="">
+    tests="1" time="49.21" timestamp="">
   
-    <testcase name="Verify distance" classname="verifyDist" time="24.35" assertions="2">
+    <testcase name="Verify distance" classname="verifyDist" time="49.21" assertions="29">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
 
     
 
